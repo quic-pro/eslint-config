@@ -83,6 +83,7 @@ Available configs:
 
 1) Install required dependencies:
    > Required versions: <br/>
+   eslint-config-react-app >= 7 <br/>
    eslint-plugin-react >= 7 <br/>
    eslint-plugin-react-hooks >= 4 <br/>
    eslint-plugin-simple-import-sort >= 8 <br/>
@@ -90,13 +91,13 @@ Available configs:
    Using npm:
 
    ```bash
-   npm install --save-dev eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-simple-import-sort
+   npm install --save-dev eslint-config-react-app eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-simple-import-sort
    ```
 
    Using yarn:
 
    ```bash
-   yarn add --dev eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-simple-import-sort
+   yarn add --dev eslint-config-react-app eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-simple-import-sort
    ```
 
 2) Add to your ESLint config:

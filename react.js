@@ -10,11 +10,14 @@ module.exports = {
         }
     },
     extends: [
+        'react-app',
+        'plugin:jsx-a11y/recommended',
         'plugin:react/recommended',
         'plugin:react-hooks/recommended'
     ],
     plugins: [
         'react',
+        'jsx-a11y',
         'react-hooks',
         'simple-import-sort'
     ],
