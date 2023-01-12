@@ -109,3 +109,7 @@ Available configs:
      ]
    }
    ```
+
+## License
+
+[MIT](LICENSE)
