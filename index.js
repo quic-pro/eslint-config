@@ -14,7 +14,14 @@ module.exports = {
         'no-unused-private-class-members': 'warn',
         'require-atomic-updates': 'error',
         'arrow-body-style': 'error',
-        'camelcase': 'error',
+        'camelcase': [
+            'error',
+            {
+                'ignoreGlobals': true,
+                'ignoreImports': true,
+                'ignoreDestructuring': true
+            }
+        ],
         'curly': 'error',
         'default-case': 'error',
         'no-unused-expressions': 'error',
@@ -75,7 +82,25 @@ module.exports = {
         'no-whitespace-before-property': 'error',
         'object-curly-newline': [
             'error',
-            'always'
+            {
+                'ObjectExpression': {
+                    'consistent': true,
+                    'multiline': true,
+                    'minProperties': 4
+                },
+                'ObjectPattern': {
+                    'multiline': true,
+                    'minProperties': 4
+                },
+                'ImportDeclaration': {
+                    'multiline': true,
+                    'minProperties': 4
+                },
+                'ExportDeclaration': {
+                    'multiline': true,
+                    'minProperties': 6
+                }
+            }
         ],
         'object-curly-spacing': 'error',
         'operator-linebreak': [
