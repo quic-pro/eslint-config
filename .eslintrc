@@ -1,0 +1,9 @@
+{
+  "root": true,
+  "extends": [
+    "./"
+  ],
+  "rules": {
+    "quote-props": "off"
+  }
+}
