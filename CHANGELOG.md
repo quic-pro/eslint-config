@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.2.0](https://github.com/quic-pro/eslint-config/releases/tag/0.2.0) (2023-01-12)
+
+### Changed
+
+- feat: add react-app and jsx-a11y for react config
+
+### Chores
+
+- chore: bump version to 0.2.0
+
 ## [0.1.2](https://github.com/quic-pro/eslint-config/releases/tag/0.1.2) (2023-01-12)
 
 ### Fixed
