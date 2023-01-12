@@ -14,9 +14,12 @@ module.exports = {
         'plugin:react-hooks/recommended'
     ],
     plugins: [
+        'react',
+        'react-hooks',
         'simple-import-sort'
     ],
     rules: {
+        'simple-import-sort/exports': 'error',
         'simple-import-sort/imports': 'error'
     }
 };
