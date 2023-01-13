@@ -21,11 +21,13 @@ yarn add --dev @quic-pro/eslint-config
 ## Configs
 
 Available configs:
-- [default](https://github.com/quic-pro/eslint-config/blob/main/index.js)
+
+- [default](https://github.com/quic-pro/eslint-config/blob/main/index.js) same as recommended
+- [recommended](https://github.com/quic-pro/eslint-config/blob/main/recommended.js)
 - [typescript](https://github.com/quic-pro/eslint-config/blob/main/typescript.js)
 - [react](https://github.com/quic-pro/eslint-config/blob/main/react.js)
 
-> The default config does not extend typescript and react configs. It is recommended to always use the default config with other configs.
+> Use the recommended config with other configs.
 
 ## Usage
 
@@ -37,6 +39,28 @@ Available configs:
    {
      "extends": [
        "@quic-pro/eslint-config"
+     ]
+   }
+   ```
+
+   Or you can also omit the eslint-config and it will be automatically assumed by ESLint:
+
+   ```json
+   {
+     "extends": [
+       "@quic-pro"
+     ]
+   }
+   ```
+
+### recommended
+
+1) Add to your ESLint config:
+
+   ```json
+   {
+     "extends": [
+       "@quic-pro/eslint-config/recommended"
      ]
    }
    ```
@@ -73,7 +97,7 @@ Available configs:
        "project": "./tsconfig.json"
      },
      "extends": [
-       "@quic-pro/eslint-config",
+       "@quic-pro/eslint-config/recommended",
        "@quic-pro/eslint-config/typescript"
      ]
    }
@@ -105,11 +129,13 @@ Available configs:
    ```json
    {
      "extends": [
-       "@quic-pro/eslint-config",
+       "@quic-pro/eslint-config/recommended",
        "@quic-pro/eslint-config/react"
      ]
    }
    ```
+
+   > If you are using TypeScript with React then you can also add "@quic-pro/eslint-config/typescript"
 
 ## License
 
