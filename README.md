@@ -4,19 +4,17 @@ Shareable ESLint config.
 
 ## Installation
 
-> Required ESLint version >= 8
-
-Using npm:
-
 ```bash
+# Using npm
 npm install --save-dev @quic-pro/eslint-config
-```
 
-Using yarn:
-
-```bash
+# Using yarn
 yarn add --dev @quic-pro/eslint-config
 ```
+
+> Required ESLint version >= 8
+>
+> [ESLint documentation](https://eslint.org/docs/latest/user-guide)
 
 ## Configs
 
@@ -69,22 +67,18 @@ Available configs:
 
 1) Install required dependencies:
 
-   > Required versions: <br/>
+   ```bash
+   #Using npm
+   npm install --save-dev typescript @typescript-eslint/eslint-plugin @typescript-eslint/parser
+
+   # Using yarn
+   yarn add --dev typescript @typescript-eslint/eslint-plugin @typescript-eslint/parser
+   ```
+
+   > **Required versions:** <br/>
    typescript >= 4 <br/>
    @typescript-eslint/eslint-plugin >= 5 <br/>
    @typescript-eslint/parser >= 5 <br/>
-
-   Using npm:
-
-   ```bash
-   npm install --save-dev typescript @typescript-eslint/eslint-plugin @typescript-eslint/parser
-   ```
-
-   Using yarn:
-
-   ```bash
-   yarn add --dev typescript @typescript-eslint/eslint-plugin @typescript-eslint/parser
-   ```
 
 2) Add to your ESLint config:
 
@@ -106,23 +100,21 @@ Available configs:
 ### react
 
 1) Install required dependencies:
-   > Required versions: <br/>
+
+   ```bash
+   # Using npm
+   npm install --save-dev eslint-config-react-app eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-simple-import-sort
+
+   # Using yarn
+   yarn add --dev eslint-config-react-app eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-simple-import-sort
+   ```
+
+   > **Required versions:** <br/>
    eslint-config-react-app >= 7 <br/>
+   eslint-plugin-jsx-a11y >= 6 <br/>
    eslint-plugin-react >= 7 <br/>
    eslint-plugin-react-hooks >= 4 <br/>
    eslint-plugin-simple-import-sort >= 8 <br/>
-
-   Using npm:
-
-   ```bash
-   npm install --save-dev eslint-config-react-app eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-simple-import-sort
-   ```
-
-   Using yarn:
-
-   ```bash
-   yarn add --dev eslint-config-react-app eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-simple-import-sort
-   ```
 
 2) Add to your ESLint config:
 
@@ -135,7 +127,7 @@ Available configs:
    }
    ```
 
-   > If you are using TypeScript with React then you can also add "@quic-pro/eslint-config/typescript"
+   > If you are using TypeScript with React then you can also add "@quic-pro/eslint-config/typescript". See instructions above.
 
 ## License
 

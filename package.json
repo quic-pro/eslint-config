@@ -33,6 +33,7 @@
     "@typescript-eslint/parser": ">=5",
     "eslint": ">=8",
     "eslint-config-react-app": ">= 7",
+    "eslint-plugin-jsx-a11y": ">= 6",
     "eslint-plugin-react": ">=7",
     "eslint-plugin-react-hooks": ">=4",
     "eslint-plugin-simple-import-sort": ">=8",
@@ -43,6 +44,12 @@
       "optional": true
     },
     "@typescript-eslint/parser": {
+      "optional": true
+    },
+    "eslint-config-react-app": {
+      "optional": true
+    },
+    "eslint-plugin-jsx-a11y": {
       "optional": true
     },
     "eslint-plugin-react": {
