@@ -85,20 +85,16 @@ module.exports = {
             {
                 'ObjectExpression': {
                     'consistent': true,
-                    'multiline': true,
-                    'minProperties': 5
+                    'multiline': true
                 },
                 'ObjectPattern': {
-                    'multiline': true,
-                    'minProperties': 5
+                    'multiline': true
                 },
                 'ImportDeclaration': {
-                    'multiline': true,
-                    'minProperties': 5
+                    'multiline': true
                 },
                 'ExportDeclaration': {
-                    'multiline': true,
-                    'minProperties': 5
+                    'multiline': true
                 }
             }
         ],
