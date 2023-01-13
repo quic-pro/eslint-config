@@ -1,5 +1,24 @@
 # Changelog
 
+## [0.3.0](https://github.com/quic-pro/eslint-config/releases/tag/0.3.0) (2023-01-13)
+
+### Changed
+
+- feat: add recommended config
+
+### Fixed
+
+- fix: change object-curly-newline rule and react config
+
+### Docs
+
+- docs: add information about recommended config
+
+### Chores
+
+- chore: add keywords
+- chore: bump version to 0.3.0
+
 ## [0.2.0](https://github.com/quic-pro/eslint-config/releases/tag/0.2.0) (2023-01-12)
 
 ### Changed
