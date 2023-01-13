@@ -12,8 +12,10 @@
     "url": "git+https://github.com/quic-pro/eslint-config.git"
   },
   "keywords": [
+    "config",
     "eslint",
-    "eslintconfig"
+    "eslintconfig",
+    "styleguide"
   ],
   "main": "index.js",
   "scripts": {
