@@ -1,5 +1,26 @@
 # Changelog
 
+## [0.3.1](https://github.com/quic-pro/eslint-config/releases/tag/0.3.1) (2023-01-17)
+
+### Fixed
+
+- fix(rect): turn off react/react-in-jsx-scope rule
+- fix(typescript): turn off no-unsafe rules
+- fix(typescript): disable typescript error suppression
+- fix(recommended): add dangle comma requirement for multiline elements
+
+### Docs
+
+- docs: fixed list of config dependencies for react
+
+### Chores
+
+- chore: bump version to 0.3.1
+
+### Styles
+
+- style: add dangle commas
+
 ## [0.3.0](https://github.com/quic-pro/eslint-config/releases/tag/0.3.0) (2023-01-13)
 
 ### Changed
