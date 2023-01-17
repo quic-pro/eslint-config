@@ -43,7 +43,7 @@ module.exports = {
         ],
         'block-spacing': 'error',
         'brace-style': 'error',
-        'comma-dangle': 'error',
+        'comma-dangle': ['error', 'always-multiline'],
         'comma-spacing': 'error',
         'comma-style': 'error',
         'computed-property-spacing': 'error',
