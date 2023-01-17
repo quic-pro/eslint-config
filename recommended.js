@@ -5,8 +5,8 @@ module.exports = {
         'no-duplicate-imports': [
             'error',
             {
-                'includeExports': true
-            }
+                'includeExports': true,
+            },
         ],
         'no-self-compare': 'error',
         'no-unmodified-loop-condition': 'error',
@@ -19,8 +19,8 @@ module.exports = {
             {
                 'ignoreGlobals': true,
                 'ignoreImports': true,
-                'ignoreDestructuring': true
-            }
+                'ignoreDestructuring': true,
+            },
         ],
         'curly': 'error',
         'default-case': 'error',
@@ -29,7 +29,7 @@ module.exports = {
         'prefer-promise-reject-errors': 'error',
         'quote-props': [
             'error',
-            'as-needed'
+            'as-needed',
         ],
         'spaced-comment': 'error',
         'array-bracket-spacing': 'error',
@@ -38,8 +38,8 @@ module.exports = {
             'error',
             {
                 'before': true,
-                'after': true
-            }
+                'after': true,
+            },
         ],
         'block-spacing': 'error',
         'brace-style': 'error',
@@ -54,23 +54,23 @@ module.exports = {
             'error',
             4,
             {
-                'SwitchCase': 1
-            }
+                'SwitchCase': 1,
+            },
         ],
         'lines-between-class-members': [
             'error',
             'always',
             {
-                'exceptAfterSingleLine': true
-            }
+                'exceptAfterSingleLine': true,
+            },
         ],
         'max-len': [
             'warn',
             {
                 'code': 120,
                 'ignoreUrls': true,
-                'ignoreRegExpLiterals': true
-            }
+                'ignoreRegExpLiterals': true,
+            },
         ],
         'max-statements-per-line': 'error',
         'new-parens': 'error',
@@ -85,18 +85,18 @@ module.exports = {
             {
                 'ObjectExpression': {
                     'consistent': true,
-                    'multiline': true
+                    'multiline': true,
                 },
                 'ObjectPattern': {
-                    'multiline': true
+                    'multiline': true,
                 },
                 'ImportDeclaration': {
-                    'multiline': true
+                    'multiline': true,
                 },
                 'ExportDeclaration': {
-                    'multiline': true
-                }
-            }
+                    'multiline': true,
+                },
+            },
         ],
         'object-curly-spacing': 'error',
         'operator-linebreak': [
@@ -105,13 +105,13 @@ module.exports = {
             {
                 'overrides': {
                     '?': 'before',
-                    ':': 'before'
-                }
-            }
+                    ':': 'before',
+                },
+            },
         ],
         'quotes': [
             'error',
-            'single'
+            'single',
         ],
         'rest-spread-spacing': 'error',
         'semi': 'error',
@@ -123,14 +123,14 @@ module.exports = {
             {
                 'anonymous': 'always',
                 'named': 'never',
-                'asyncArrow': 'always'
-            }
+                'asyncArrow': 'always',
+            },
         ],
         'space-in-parens': 'error',
         'space-infix-ops': 'error',
         'space-unary-ops': 'error',
         'switch-colon-spacing': 'error',
         'template-curly-spacing': 'error',
-        'wrap-iife': 'error'
-    }
+        'wrap-iife': 'error',
+    },
 };
